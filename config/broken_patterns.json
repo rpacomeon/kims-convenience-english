@@ -1,0 +1,164 @@
+{
+  "patterns": [
+    {
+      "id": "BE_VERB_AGREEMENT_1",
+      "pattern": "\\b[Yy]ou is\\b",
+      "correction": "You are",
+      "explanation": "주어 'You'는 항상 'are'를 사용합니다",
+      "example_wrong": "You is very smart",
+      "example_correct": "You are very smart"
+    },
+    {
+      "id": "BE_VERB_AGREEMENT_2",
+      "pattern": "\\b[Tt]hey is\\b",
+      "correction": "They are",
+      "explanation": "주어 'They'는 항상 'are'를 사용합니다",
+      "example_wrong": "They is all the gay",
+      "example_correct": "They are all gay"
+    },
+    {
+      "id": "BE_VERB_AGREEMENT_3",
+      "pattern": "\\b[Ww]e is\\b",
+      "correction": "We are",
+      "explanation": "주어 'We'는 항상 'are'를 사용합니다",
+      "example_wrong": "We is happy",
+      "example_correct": "We are happy"
+    },
+    {
+      "id": "QUESTION_WORD_ORDER_1",
+      "pattern": "\\bhow I can\\b",
+      "correction": "how can I",
+      "explanation": "의문사 뒤에는 '조동사 + 주어' 어순입니다",
+      "example_wrong": "how I can help you",
+      "example_correct": "how can I help you"
+    },
+    {
+      "id": "QUESTION_WORD_ORDER_2",
+      "pattern": "\\bwhat you want\\b",
+      "correction": "what do you want",
+      "explanation": "의문문에는 do/does를 사용합니다",
+      "example_wrong": "what you want to do",
+      "example_correct": "what do you want to do"
+    },
+    {
+      "id": "QUESTION_WORD_ORDER_3",
+      "pattern": "\\bwhere you go\\b",
+      "correction": "where do you go",
+      "explanation": "의문문에는 do/does를 사용합니다",
+      "example_wrong": "where you go",
+      "example_correct": "where do you go"
+    },
+    {
+      "id": "DO_AUXILIARY_MISSING_1",
+      "pattern": "\\bI not \\w+\\b",
+      "correction": "I don't",
+      "explanation": "부정문에는 don't/doesn't를 사용합니다",
+      "example_wrong": "I not understand",
+      "example_correct": "I don't understand"
+    },
+    {
+      "id": "DO_AUXILIARY_MISSING_2",
+      "pattern": "\\b[Hh]e not \\w+\\b",
+      "correction": "He doesn't",
+      "explanation": "3인칭 단수 부정문에는 doesn't를 사용합니다",
+      "example_wrong": "He not like it",
+      "example_correct": "He doesn't like it"
+    },
+    {
+      "id": "DO_AUXILIARY_MISSING_3",
+      "pattern": "\\b[Ss]he not \\w+\\b",
+      "correction": "She doesn't",
+      "explanation": "3인칭 단수 부정문에는 doesn't를 사용합니다",
+      "example_wrong": "She not know",
+      "example_correct": "She doesn't know"
+    },
+    {
+      "id": "ARTICLE_THE_OVERUSE_1",
+      "pattern": "\\ball the gay\\b",
+      "correction": "all gay",
+      "explanation": "형용사 앞에는 보통 'the'를 사용하지 않습니다",
+      "example_wrong": "They is all the gay",
+      "example_correct": "They are all gay"
+    },
+    {
+      "id": "ARTICLE_THE_OVERUSE_2",
+      "pattern": "\\bthe most best\\b",
+      "correction": "the best",
+      "explanation": "'best'는 이미 최상급이므로 'most'를 중복 사용하지 않습니다",
+      "example_wrong": "You are the most best",
+      "example_correct": "You are the best"
+    },
+    {
+      "id": "VERB_FORM_AGREEMENT_1",
+      "pattern": "\\b[Hh]e go\\b",
+      "correction": "He goes",
+      "explanation": "3인칭 단수 현재형에는 -s/-es를 붙입니다",
+      "example_wrong": "He go to school",
+      "example_correct": "He goes to school"
+    },
+    {
+      "id": "VERB_FORM_AGREEMENT_2",
+      "pattern": "\\b[Ss]he have\\b",
+      "correction": "She has",
+      "explanation": "3인칭 단수 현재형 'have'는 'has'입니다",
+      "example_wrong": "She have a car",
+      "example_correct": "She has a car"
+    },
+    {
+      "id": "DOUBLE_NEGATIVE",
+      "pattern": "\\bdon't .* no\\b",
+      "correction": "don't ... any",
+      "explanation": "영어에서는 이중 부정을 사용하지 않습니다",
+      "example_wrong": "I don't have no money",
+      "example_correct": "I don't have any money"
+    },
+    {
+      "id": "PREPOSITION_MISSING_1",
+      "pattern": "\\blisten me\\b",
+      "correction": "listen to me",
+      "explanation": "'listen'은 'to'와 함께 사용합니다",
+      "example_wrong": "You must listen me",
+      "example_correct": "You must listen to me"
+    },
+    {
+      "id": "PREPOSITION_WRONG_1",
+      "pattern": "\\bdepend of\\b",
+      "correction": "depend on",
+      "explanation": "'depend'는 'on'과 함께 사용합니다",
+      "example_wrong": "It depend of you",
+      "example_correct": "It depends on you"
+    },
+    {
+      "id": "WORD_ORDER_ADVERB",
+      "pattern": "\\bI very like\\b",
+      "correction": "I like ... very much",
+      "explanation": "부사 'very'는 동사 앞에 올 수 없습니다",
+      "example_wrong": "I very like this",
+      "example_correct": "I like this very much"
+    },
+    {
+      "id": "PLURAL_MISSING",
+      "pattern": "\\bmany \\w+(?<!s)\\b(?! is| are)",
+      "correction": "many [plural]",
+      "explanation": "'many' 뒤에는 복수형을 사용합니다",
+      "example_wrong": "many people come",
+      "example_correct": "many people come"
+    },
+    {
+      "id": "POSSESSIVE_WRONG",
+      "pattern": "\\bits your\\b",
+      "correction": "it's yours",
+      "explanation": "'its'는 소유격, 'it's'는 'it is'의 축약형입니다",
+      "example_wrong": "Its your turn",
+      "example_correct": "It's your turn"
+    },
+    {
+      "id": "CONDITIONAL_IF_WRONG",
+      "pattern": "\\b[Ii]f .* will\\b",
+      "correction": "If ... [present tense]",
+      "explanation": "if절에서는 미래를 나타낼 때 현재형을 사용합니다",
+      "example_wrong": "If you will come",
+      "example_correct": "If you come"
+    }
+  ]
+}

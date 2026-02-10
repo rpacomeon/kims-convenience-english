@@ -1,0 +1,154 @@
+{
+  "phrasal_verbs": [
+    {
+      "verb": "come in",
+      "meaning": "들어오다",
+      "example": "Come in and have a seat.",
+      "category": "movement"
+    },
+    {
+      "verb": "pick up",
+      "meaning": "가지러 가다, 줍다, 배우다",
+      "example": "Can you pick up the kids from school?",
+      "category": "action"
+    },
+    {
+      "verb": "put up",
+      "meaning": "게시하다, 세우다, 묵게 하다",
+      "example": "Can we put up a poster in your window?",
+      "category": "action"
+    },
+    {
+      "verb": "look for",
+      "meaning": "찾다, 구하다",
+      "example": "I'm looking for a new job.",
+      "category": "search"
+    },
+    {
+      "verb": "find out",
+      "meaning": "알아내다, 발견하다",
+      "example": "I need to find out the truth.",
+      "category": "discovery"
+    },
+    {
+      "verb": "get along",
+      "meaning": "잘 지내다, 사이가 좋다",
+      "example": "They get along very well.",
+      "category": "relationship"
+    },
+    {
+      "verb": "take over",
+      "meaning": "인수하다, 떠맡다",
+      "example": "She'll take over the business.",
+      "category": "control"
+    },
+    {
+      "verb": "work out",
+      "meaning": "운동하다, 해결되다, 계산하다",
+      "example": "Things will work out in the end.",
+      "category": "solution"
+    },
+    {
+      "verb": "give up",
+      "meaning": "포기하다",
+      "example": "Don't give up on your dreams.",
+      "category": "decision"
+    },
+    {
+      "verb": "turn down",
+      "meaning": "거절하다, (소리를) 줄이다",
+      "example": "He turned down the job offer.",
+      "category": "rejection"
+    },
+    {
+      "verb": "go on",
+      "meaning": "계속하다, 일어나다",
+      "example": "What's going on here?",
+      "category": "continuation"
+    },
+    {
+      "verb": "run out",
+      "meaning": "다 떨어지다, 바닥나다",
+      "example": "We ran out of milk.",
+      "category": "depletion"
+    },
+    {
+      "verb": "show up",
+      "meaning": "나타나다, 도착하다",
+      "example": "He didn't show up for the meeting.",
+      "category": "appearance"
+    },
+    {
+      "verb": "break up",
+      "meaning": "헤어지다, 깨뜨리다",
+      "example": "They broke up last month.",
+      "category": "separation"
+    },
+    {
+      "verb": "make up",
+      "meaning": "화해하다, 만들어내다, 구성하다",
+      "example": "They made up after the fight.",
+      "category": "reconciliation"
+    },
+    {
+      "verb": "call off",
+      "meaning": "취소하다",
+      "example": "They called off the wedding.",
+      "category": "cancellation"
+    },
+    {
+      "verb": "look after",
+      "meaning": "돌보다, 보살피다",
+      "example": "Can you look after my cat?",
+      "category": "care"
+    },
+    {
+      "verb": "look up",
+      "meaning": "찾아보다, 올려다보다",
+      "example": "Look it up in the dictionary.",
+      "category": "search"
+    },
+    {
+      "verb": "set up",
+      "meaning": "설치하다, 세우다, 준비하다",
+      "example": "Let's set up a meeting.",
+      "category": "preparation"
+    },
+    {
+      "verb": "bring up",
+      "meaning": "언급하다, 키우다",
+      "example": "Don't bring up the past.",
+      "category": "mention"
+    },
+    {
+      "verb": "catch up",
+      "meaning": "따라잡다, 만나서 회포를 풀다",
+      "example": "Let's catch up over coffee.",
+      "category": "meeting"
+    },
+    {
+      "verb": "hang out",
+      "meaning": "어울리다, 시간을 보내다",
+      "example": "Do you want to hang out this weekend?",
+      "category": "socializing"
+    },
+    {
+      "verb": "get over",
+      "meaning": "극복하다, 회복하다",
+      "example": "It takes time to get over a breakup.",
+      "category": "recovery"
+    },
+    {
+      "verb": "figure out",
+      "meaning": "이해하다, 알아내다",
+      "example": "I can't figure out this problem.",
+      "category": "understanding"
+    },
+    {
+      "verb": "count on",
+      "meaning": "의지하다, 믿다",
+      "example": "You can count on me.",
+      "category": "trust"
+    }
+  ]
+}

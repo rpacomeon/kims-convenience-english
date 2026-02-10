@@ -1,0 +1,128 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "name": "인사/소개",
+      "keywords": [
+        "hello", "hi", "good morning", "good afternoon", "good evening",
+        "nice to meet", "how are you", "how do you do", "pleased to meet",
+        "my name is", "I'm", "this is", "let me introduce",
+        "goodbye", "bye", "see you", "take care", "have a good"
+      ],
+      "patterns": [
+        "\\bhello\\b", "\\bhi\\b", "\\bgood (morning|afternoon|evening)\\b",
+        "\\bnice to meet\\b", "\\bhow are you\\b", "\\bmy name is\\b",
+        "\\bgoodbye\\b", "\\bsee you\\b"
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "가게/쇼핑",
+      "keywords": [
+        "buy", "sell", "price", "cost", "how much", "pay", "cash", "card",
+        "receipt", "change", "discount", "sale", "store", "shop",
+        "customer", "purchase", "item", "product", "stock",
+        "open", "close", "hours", "available"
+      ],
+      "patterns": [
+        "\\bhow much\\b", "\\b(buy|sell|price|cost)\\b",
+        "\\b(pay|cash|card)\\b", "\\b(store|shop)\\b"
+      ]
+    },
+    {
+      "id": "family",
+      "name": "가족 대화",
+      "keywords": [
+        "mom", "dad", "mother", "father", "son", "daughter",
+        "brother", "sister", "family", "parent", "child",
+        "umma", "appa", "home", "house", "together"
+      ],
+      "patterns": [
+        "\\b(mom|dad|mother|father|parent)\\b",
+        "\\b(son|daughter|child|family)\\b",
+        "\\b(umma|appa)\\b"
+      ]
+    },
+    {
+      "id": "emotions",
+      "name": "감정 표현",
+      "keywords": [
+        "happy", "sad", "angry", "upset", "worried", "excited",
+        "sorry", "glad", "love", "hate", "like", "enjoy",
+        "scared", "nervous", "proud", "disappointed",
+        "feel", "feeling", "emotion"
+      ],
+      "patterns": [
+        "\\b(I feel|feeling|felt)\\b",
+        "\\b(happy|sad|angry|sorry|glad)\\b",
+        "\\b(love|hate|like)\\b"
+      ]
+    },
+    {
+      "id": "requests",
+      "name": "부탁/거절",
+      "keywords": [
+        "can you", "could you", "would you", "will you",
+        "please", "help", "favor", "mind",
+        "sorry", "can't", "unable", "impossible",
+        "yes", "no", "sure", "of course", "no problem",
+        "I'm afraid", "I don't think"
+      ],
+      "patterns": [
+        "\\b(can|could|would|will) you\\b",
+        "\\bplease\\b", "\\bhelp\\b",
+        "\\b(sorry|can't|unable)\\b",
+        "\\b(sure|of course|no problem)\\b"
+      ]
+    },
+    {
+      "id": "workplace",
+      "name": "직장/업무",
+      "keywords": [
+        "work", "job", "boss", "manager", "employee",
+        "office", "business", "meeting", "project",
+        "interview", "hire", "fire", "resign", "quit",
+        "salary", "pay", "promotion", "colleague"
+      ],
+      "patterns": [
+        "\\b(work|job|office|business)\\b",
+        "\\b(boss|manager|employee)\\b",
+        "\\b(meeting|interview)\\b"
+      ]
+    },
+    {
+      "id": "daily_life",
+      "name": "일상생활",
+      "keywords": [
+        "eat", "drink", "sleep", "wake up", "get up",
+        "breakfast", "lunch", "dinner", "food", "cook",
+        "go", "come", "arrive", "leave", "stay",
+        "watch", "read", "listen", "talk", "speak",
+        "time", "today", "tomorrow", "yesterday", "now"
+      ],
+      "patterns": [
+        "\\b(eat|drink|sleep|wake)\\b",
+        "\\b(breakfast|lunch|dinner|food)\\b",
+        "\\b(go|come|arrive|leave)\\b",
+        "\\b(today|tomorrow|yesterday)\\b"
+      ]
+    },
+    {
+      "id": "advice",
+      "name": "의견/조언",
+      "keywords": [
+        "think", "believe", "opinion", "advice",
+        "should", "shouldn't", "must", "have to",
+        "better", "best", "right", "wrong",
+        "agree", "disagree", "understand",
+        "suggest", "recommend", "idea"
+      ],
+      "patterns": [
+        "\\b(I think|believe|opinion)\\b",
+        "\\b(should|must|have to)\\b",
+        "\\b(agree|disagree|understand)\\b",
+        "\\b(suggest|recommend)\\b"
+      ]
+    }
+  ]
+}

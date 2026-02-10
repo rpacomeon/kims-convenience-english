@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/
+*.db
+*.db-journal
+
+# 학습 데이터 (개인 진도)
+learning_data.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+nul
+
+# Claude Code
+.claude/
+
+# Excel lock files
+~$*.xlsx
+~$*.xls
