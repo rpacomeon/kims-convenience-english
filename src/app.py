@@ -40,7 +40,11 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     """데이터를 로드하고 캐싱한다."""
-    df = load_subtitle_data("../김씨네 편의점.txt")
+    # 프로젝트 루트 디렉토리 찾기
+    project_root = Path(__file__).parent.parent
+    data_file = project_root / "김씨네 편의점.txt"
+
+    df = load_subtitle_data(str(data_file))
     df = add_episode_column(df)
     df = add_clean_subtitle_column(df)
     df = add_speaker_column(df)
@@ -50,8 +54,11 @@ def load_data():
 @st.cache_resource
 def load_resources():
     """리소스를 로드하고 캐싱한다."""
-    categorizer = Categorizer("../config/categories.json")
-    broken_detector = BrokenEnglishDetector("../config/broken_patterns.json")
+    # 프로젝트 루트 디렉토리 찾기
+    project_root = Path(__file__).parent.parent
+
+    categorizer = Categorizer(str(project_root / "config" / "categories.json"))
+    broken_detector = BrokenEnglishDetector(str(project_root / "config" / "broken_patterns.json"))
     return categorizer, broken_detector
 
 
@@ -69,7 +76,8 @@ def initialize_session_state():
         }
 
     if 'learning_manager' not in st.session_state:
-        st.session_state.learning_manager = LearningDataManager("../learning_data.json")
+        project_root = Path(__file__).parent.parent
+        st.session_state.learning_manager = LearningDataManager(str(project_root / "learning_data.json"))
 
     if 'curriculum' not in st.session_state:
         df = load_data()
@@ -312,7 +320,8 @@ def page_phrasal_verbs():
     st.info("드라마에서 실제 사용된 구동사를 학습합니다!")
 
     # 구동사 분석
-    phrasal_analysis = analyze_phrasal_verbs(df, "../config/phrasal_verbs.json")
+    project_root = Path(__file__).parent.parent
+    phrasal_analysis = analyze_phrasal_verbs(df, str(project_root / "config" / "phrasal_verbs.json"))
 
     if len(phrasal_analysis) > 0:
         st.subheader(f"📚 사용된 구동사 ({len(phrasal_analysis)}개)")
